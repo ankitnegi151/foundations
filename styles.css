@@ -1,19 +1,8 @@
-
-.main {
-    margin-top: 100px;    
-}
-
-.logo-img {
-    display: block;
-    width: 300px;
-    margin-bottom:20px; 
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.search-input {
-    display: block;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-}
+.card {color :blueviolet ;
+background-color: beige;
+width:400px;
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+padding-top:100px ;
+padding-right: 100px;}
