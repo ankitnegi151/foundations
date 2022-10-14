@@ -1,30 +1,11 @@
 body {
-    margin: 0;
-    color: #82a5ca;
+    letter-spacing: 4px;
+    background: whitesmoke;
+    color: #fafbf4;
     text-align: center;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
 
-#hero {
-    background-image: url("https://thumbs.dreamstime.com/b/illustration-deep-space-spacex-logo-over-vector-planet-195641418.jpg");
-    background-size: cover;
-    padding: 10px 0 40px 0;
-}
-
-#main-logo {
-    width: 100px;
-}
-
-.btn {
-    padding: 6px 12px;
-    background: white;
-    border: none;
-    font-family: 'Orbitron', sans-serif;
-    color: #82a5ca;
-    font-weight: 800;
-}
-
-.underline {
-    border-bottom: 4px solid white;
-}
-   
+h1 {
+    font-size: 80px;
+    text-shadow: 0px 0px 2px black;}
