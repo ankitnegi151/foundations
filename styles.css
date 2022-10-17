@@ -1,13 +1,94 @@
-div {
+body {
     text-align: center;
-    color: white;
-    margin: 5px;
-    padding: 25px 0;
-    background: #e5383b;
-    font-size: 30px;
-    font-weight: bold;
+    font-family: 'Happy Monkey', cursive;
+    background: #a2d2ff;
+    color: #ffffff;
+    
 }
 
-div:hover {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcHc41R20cHpOywdvd2rhMZ0ox8x7tfz4YLltH2SpjlV2DVG0xjumTPqZGu6vV2KAV2hg&usqp=CAU");
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
 }
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("https://cdn5.vectorstock.com/i/1000x1000/92/49/gold-ribbon-on-pink-background-gift-box-cover-vector-4659249.jpg");
+    background-size: cover;
+}
+#gift-img-happy:hover {
+    background-image: url("https://66.media.tumblr.com/bcd37a15ac9a18fd242950b1114e43b8/f5c448b19b5d125a-6b/s500x750/267fc2199ce6c53fe9767a4477fc172bd5c007e8.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://media.tenor.com/I3btKSBxue4AAAAC/yell-shout.gif");
+}
+#gift-img-genuis:hover {
+    background-image: url("https://media.tenor.com/NJ9-u8CpJEcAAAAC/genius.gif");
+}
+#gift-img-badass:hover {
+    background-image: url("http://24.media.tumblr.com/79ae0fb521ded2e717db4acd3d2c104c/tumblr_mjz7e3ixsh1s46rl6o1_500.gif");
+}
+#gift-img-cheers:hover {
+    background-image: url("https://media.tenor.com/hO45kE9IhiwAAAAM/snl-cheers.gifs");
+
+}
+#gift-img-cheers {
+    height: 200px;
+}
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+
+
+
+
