@@ -1,56 +1,18 @@
-
-.calc-body {
-    width: 300px;
-    margin: auto;
-    min-height: 400px;
+.chessboard TD {
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    border: 2px solid black;
     
-    background: #abb2b9;
-}
-
-.calc-screen {
-    padding: 2rem;
-   
-}
-#calc-operation {
-    font-size: 2rem;
-    text-align: right;
-    padding-bottom: 4rem;
-}
-#calc-typed {
-    font-size: 2rem;
-    text-align: right;
-    color: #fff;
-}
-
-.calc-button-row{
-    display: table;
-}
-.calc-button-row {
-    display: table-cell;
-    width: 25%;
-    background: #425062;
-    color: #fff;
-    height: 65px;
-    font-size: 1.3rem;
-    border: none;
-    border-color:#3C4857;
-    border-width: 1px 1px 0px 0;
-    border-style: solid;
-}
-.calc-button-row button.ac {
-    color: #ff7665;
-}
-.calc-button-row button.opt {
-    color: #ffbc56;
-}
-
-.calc-button-row button:nth-child(4n){
-    border-right: none;
-}
-.calc-button-row button:active {
-    position: relative;
-    top: 1px;
-}
-.calc-button-row button:hover {
-    background: #3e4b5c;
-}
+  }
+  
+  .black {
+    background-color: rgb(218, 173, 173);
+  }
+  
+  .white {
+    background-color: #ffffffa1;
+  }
+  
