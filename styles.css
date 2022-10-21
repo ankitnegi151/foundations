@@ -1,6 +1,27 @@
-p {
-    margin: 30px;
+p.wo1 {
     border: 1px solid black;
-    outline: 1px solid red;
-    outline-offset: 15px;
+    /*outline-style: solid;
+    outline-color: red;
+    outline-width: thin;*/
+    outline:thin solid red;
+  }
+  p.wo2 {
+    border: 1px solid black;
+    /*outline-style: solid;
+    outline-color: red;
+    outline-width: medium;*/
+    outline:solid red medium;
+  }
+  p.wo3 {
+    border: 1px solid black;
+    /*outline-style: solid;
+    outline-color: red;
+    outline-width: thick;*/
+    outline:red thick solid;
+  }
+   p.wo4 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 4px;
   }
