@@ -1,13 +1,6 @@
-h2{
-    border: 1px solid red;
-}
-
-p{outline-color:red;}
-p.dotted {outline-style: dotted;}
-p.dashed {outline-style: dashed;}
-p.solid {outline-style: solid;}
-p.double {outline-style: double;}
-p.groove {outline-style: groove;}
-p.ridge {outline-style: ridge;}
-p.inset {outline-style: inset;}
-p.outset {outline-style: outset;}
+p {
+    margin: 30px;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+  }
