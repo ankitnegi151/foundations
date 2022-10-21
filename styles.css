@@ -1,5 +1,15 @@
-div {
-    height: 100px;
-    width: 500px;
-    background-color: powderblue;
+body {
+    text-align: center;
+  }
+  p.four {
+    border-style: dotted solid double dashed;
+  }
+  p.three {
+    border-style: dotted solid double;
+  }
+  p.two {
+    border-style: dotted solid;
+  }
+  p.one {
+    border-style: dotted;
   }
