@@ -1,8 +1,13 @@
-div {
-     border: 1px solid black;
-     margin-top: 100px;
-     margin-bottom: 100px;
-     margin-right: 150px;
-     margin-left: 80px;
-     background-color: lightblue;
-  }
+h2{
+    border: 1px solid red;
+}
+
+p{outline-color:red;}
+p.dotted {outline-style: dotted;}
+p.dashed {outline-style: dashed;}
+p.solid {outline-style: solid;}
+p.double {outline-style: double;}
+p.groove {outline-style: groove;}
+p.ridge {outline-style: ridge;}
+p.inset {outline-style: inset;}
+p.outset {outline-style: outset;}
