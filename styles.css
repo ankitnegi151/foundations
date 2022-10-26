@@ -1,11 +1,7 @@
-p.a {
-    text-align-last: right;
+h2 {
+    letter-spacing: 5px;
   }
   
-  p.b {
-    text-align-last: center;
-  }
-  
-  p.c {
-    text-align-last: justify;
+  h3 {
+    letter-spacing: -5px;
   }
