@@ -1,11 +1,11 @@
-h1 {
-    text-align: center;
+p.a {
+    text-align-last: right;
   }
   
-  h2 {
-    text-align: left;
+  p.b {
+    text-align-last: center;
   }
   
-  h3 {
-    text-align: right;
+  p.c {
+    text-align-last: justify;
   }
