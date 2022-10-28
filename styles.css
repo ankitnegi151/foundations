@@ -1,20 +1,9 @@
-.a {
-    list-style-type: circle;
-}
-.b {
-    list-style-type: square;
-    
-    background: #ffe5e5;
-    color: darkred;
-    padding: 5px;
-    margin-left: 35px;
-}
-.c {
-    list-style-type: upper-roman;
-    list-style-position: inside;
-}
-.d {
-    /*list-style-type: lower-alpha;*/
-    list-style-position: outside;
-    list-style-image: url('giphy.gif');
+div {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow-x: hidden;/*different(scroll) ,auto */
+    overflow-y: scroll;/*auto , visible , hidden , */
+    /*single value(overflow: scroll; , auto,)  */
 }
