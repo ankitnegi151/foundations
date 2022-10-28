@@ -1,11 +1,19 @@
-.p1 {
-    font-family: serif;
+/* unvisited link */
+a:link {
+    color: red;
   }
   
-  .p2 {
-    font-family: sans-serif;
+  /* visited link */
+  a:visited {
+    color: green;
   }
   
-  .p3 {
-    font-family: monospace;
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
   }
