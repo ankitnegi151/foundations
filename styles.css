@@ -1,6 +1,16 @@
-span {
-    display: block; /*inline,none*/
+div {
+    float: left;/*right, none , inherit*/
+    padding: 15px; 
 }
-h2.hidden {
-    visibility: hidden;
-  }
+.div1 {
+    background: red;
+    float:right;
+}
+.div2 {
+    background: yellow;
+    float: none;
+}
+.div3 {
+    background: green;
+    float:inherit;
+}

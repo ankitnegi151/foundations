@@ -1,16 +1,20 @@
-h1 {
-    text-decoration: underline;
-  }
-  
-  h2 {
-    text-decoration: underline red;
-  }
-  
-  h3 {
-    text-decoration: underline red double;
-  }
-  
-  p {
-    text-decoration: underline red double 2px;
-                    /*  underline red double 5px;*/
-  }
+.div1 /*.div3*/ {
+    float: left;
+    padding: 10px;
+    border: 3px solid #73AD21;
+}
+.div2 {
+    padding: 10px;
+    border: 3px solid red;
+    clear:none;
+}
+.div3 {
+    float: left;
+    padding: 10px;  
+    border: 3px solid #73AD21;
+}
+.div4 {
+    padding: 10px;
+    border: 3px solid red;
+    clear: left;/*both , within box (none , inherit)*/
+}
