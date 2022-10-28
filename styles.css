@@ -1,9 +1,14 @@
-div {
-    background-color: coral;
+div.abcd {
+    position: relative;/*fixed , sticky , absolute, no-(static)*/
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+} 
+div.wxyz {
+    position: absolute;/*(static , relative, fixed ,sticky )*/
+    top: 80px;
+    right: 0;
     width: 200px;
-    height: 65px;
-    border: 1px solid black;
-    overflow-x: hidden;/*different(scroll) ,auto */
-    overflow-y: scroll;/*auto , visible , hidden , */
-    /*single value(overflow: scroll; , auto,)  */
+    height: 100px;
+    border: 3px solid #73AD21;
 }
