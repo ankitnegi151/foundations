@@ -1,20 +1,20 @@
-.div1 /*.div3*/ {
-    float: left;
-    padding: 10px;
-    border: 3px solid #73AD21;
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
 }
-.div2 {
-    padding: 10px;
-    border: 3px solid red;
-    clear:none;
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
 }
-.div3 {
-    float: left;
-    padding: 10px;  
-    border: 3px solid #73AD21;
-}
-.div4 {
-    padding: 10px;
-    border: 3px solid red;
-    clear: left;/*both , within box (none , inherit)*/
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
 }

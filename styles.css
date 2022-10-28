@@ -1,16 +1,20 @@
-div {
-    float: left;/*right, none , inherit*/
-    padding: 15px; 
+.a {
+    list-style-type: circle;
 }
-.div1 {
-    background: red;
-    float:right;
+.b {
+    list-style-type: square;
+    
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
 }
-.div2 {
-    background: yellow;
-    float: none;
+.c {
+    list-style-type: upper-roman;
+    list-style-position: inside;
 }
-.div3 {
-    background: green;
-    float:inherit;
+.d {
+    /*list-style-type: lower-alpha;*/
+    list-style-position: outside;
+    list-style-image: url('giphy.gif');
 }
