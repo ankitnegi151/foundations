@@ -1,15 +1,3 @@
-#abcd {
-    font-size: 100px;
-}
-#efgh {
-    font-size: 200px;
-    color: red;
-}
-#ijkl {
-    font-size: 300px;
-    color:blue;
-}
-#mnop {
-    font-size: 400px;
-    color: green;
+div ~ p /* div space , > , + p */{
+    background-color: yellow;
 }
