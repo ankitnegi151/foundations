@@ -1,6 +1,15 @@
-a.highlight:hover {
-    color: #ff0000;
-    font-size: 22px;
-   /* background-color:green;*/
-   /*display: block;*/
-} 
+.abcd{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/a/a1/Blue-clematis-cluster.jpg) repeat;
+    border: 2px solid black;
+}
+.wxyz {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6/*0.2 , 0.5 , 1 default*/;
+}
+.wxyz p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
