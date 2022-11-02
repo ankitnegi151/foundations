@@ -1,52 +1,7 @@
-*{
-    box-sizing: border-box ;
+h1 {
+    font-size: 60px;
 }
-body {
-    font-family: Arial;
-    padding: 10px;
-    background: #f1f1f1;
-}
-.header {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
-}
-.abcd {
-    overflow: hidden;
-    background-color: #333;
-}
-.abcd a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-.abcd a:hover {
-    background-color: #ddd;
-    color: black;
-}
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 15px;
-}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-    margin-top: 20px;
-}
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-  @media screen and (max-width:600px) {
-    .column {
-        width: 100%;
-        font: none;
-    }
+p {
+    font-size: 25px;
+    line-height: 50px;
 }
