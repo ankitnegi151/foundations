@@ -1,3 +1,9 @@
-#demo {color: blue;}
-.test {color: green;} 
-p {color: red;} 
+#abcd {
+    background-color: blue !important;
+}
+.myclass {
+    background-color: gray !important;
+}
+p {
+    background-color: red !important;
+}
