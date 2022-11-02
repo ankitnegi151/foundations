@@ -1,25 +1,14 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
+body {
+    counter-reset: section;
 }
-li {
-    float: left;
+h1 {
+    counter-reset: subsection;
 }
-li a {
-    display: block;
-    color: #666;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+h1::before {
+    counter-increment: section;
+    content: "Section " counter(section) ". ";
 }
-li a:hover:not(.active) {
-    background-color: #ddd;
-}
-li a.active {
-    color: white;
-    background-color: #04AA6D;
+h2::before {
+    counter-increment: subsection;
+    content: counter(section) "." counter(subsection) " ";
 }
