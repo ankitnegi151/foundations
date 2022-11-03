@@ -1,6 +1,30 @@
-div {
-    border: 2px solid red;
+#abcd {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
 }
-span {
-    border: inherit;
+#efgh {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
 }
+#ijkl {
+    border-radius: 25px;
+    background: url(https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
+}
+/*#ijkl {
+    border-radius: 50%;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
+}*/   
