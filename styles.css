@@ -1,17 +1,20 @@
-#abcd {
-    border: 10px dotted black;
-    padding: 35px;
-    background: yellow;
+#abcd { 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(https://img.lovepik.com/element/40151/3884.png_300.png) 30 stretch;
 }
 #efgh {
-    border: 10px dotted black;
-    padding: 35px;
-    background: yellow;
-    background-clip: padding-box;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(https://img.lovepik.com/element/40151/3884.png_300.png) 50 round;
 }
 #ijkl {
-    border: 10px dotted black;
-    padding: 35px;
-    background: yellow;
-    background-origin: content-box;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(https://img.lovepik.com/element/40151/3884.png_300.png) 20% round;
+}
+#mnop {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(https://img.lovepik.com/element/40151/3884.png_300.png) 30% round;
 }
