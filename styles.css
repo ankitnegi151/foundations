@@ -1,20 +1,6 @@
-#abcd { 
-    border: 10px solid transparent;
-    padding: 15px;
-    border-image: url(https://img.lovepik.com/element/40151/3884.png_300.png) 30 stretch;
+div {
+    border: 2px solid red;
 }
-#efgh {
-    border: 10px solid transparent;
-    padding: 15px;
-    border-image: url(https://img.lovepik.com/element/40151/3884.png_300.png) 50 round;
-}
-#ijkl {
-    border: 10px solid transparent;
-    padding: 15px;
-    border-image: url(https://img.lovepik.com/element/40151/3884.png_300.png) 20% round;
-}
-#mnop {
-    border: 10px solid transparent;
-    padding: 15px;
-    border-image: url(https://img.lovepik.com/element/40151/3884.png_300.png) 30% round;
+span {
+    border: inherit;
 }
