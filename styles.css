@@ -1,30 +1,4 @@
-#abcd {
-    border-radius: 25px;
-    background: #73AD21;
-    padding: 20px; 
-    width: 200px;
-    height: 150px;
+h1 {
+    color: coral;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-#efgh {
-    border-radius: 25px;
-    border: 2px solid #73AD21;
-    padding: 20px; 
-    width: 200px;
-    height: 150px;
-}
-#ijkl {
-    border-radius: 25px;
-    background: url(https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg);
-    background-position: left top;
-    background-repeat: repeat;
-    padding: 20px; 
-    width: 200px;
-    height: 150px;
-}
-/*#ijkl {
-    border-radius: 50%;
-    background: #73AD21;
-    padding: 20px; 
-    width: 200px;
-    height: 150px;
-}*/   
