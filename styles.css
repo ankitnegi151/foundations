@@ -1,25 +1,25 @@
-#abcd1 {
-    height: 200px;
-    background-color: red; 
-    background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+body {
+    padding: 5% 10%;
+    font-size: 2rem;
+    font-family: "Roboto" , sans-serif;
 }
-#abcd2 {
-    height: 200px;
-    background-color: red; 
-    background-image: repeating-linear-gradient(45deg,red,yellow 7%,green 10%);
+ol{
+    list-style-type: lower-alpha;
+    padding: 0;
 }
-#abcd3 {
-    height: 200px;
-    background-color: red; 
-    background-image: repeating-linear-gradient(190deg,red,yellow 7%,green 10%);
+ul{
+    list-style-type: square;
+    text-align: center;
+    list-style-position: outside;
+    color: blue;
+    line-height:1.6 ;
 }
-#abcd4 {
-    height: 200px;
-    background-color: red; 
-    background-image: repeating-linear-gradient(90deg,red,yellow 7%,green 10%);
+ul li:nth-child(even){
+    color: red;
 }
-#abcd5 {
-    height: 200px;
-    background-color: red; 
-    background-image: repeating-linear-gradient(45deg, red 0px, red 10px, red 10px, yellow 10px, yellow 20px);
-}
+ul ::marker{
+    color: red;
+    font-family: fantasy;
+    font-size: 1em;
+    content: "only $5>> ";
+} 
