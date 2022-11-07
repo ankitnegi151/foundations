@@ -3,11 +3,21 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h2>position: absolute;</h2>
-        <p>An element with position: absolute; is positioned relative to the nearest positioned ancestor 
-            (instead of positioned relative to the viewport, like fixed):</p>
-        <div class="abcd">This div element has position: relative;
-            <div class="wxyz">This div element has position: absolute;</div>
+        <div class="outer-container">
+            <div class="inner-container">
+                <div class="box absolute">
+                    <p> Absolute </p>
+                </div>
+                <div class="box relative">
+                    <p>Relative</p>
+                </div>
+                <div class="box fixed">
+                    <p>Fixed</p>
+                </div>
+                <div class="box sticky">
+                    <p>Sticky</p>
+                </div>
+            </div>
         </div>
     </body>
 </html>
