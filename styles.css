@@ -3,37 +3,60 @@
     padding:0;
     box-sizing: border-box;
 }
-body {
-    font-family: "Roboto", sans-serif;
+img {
+    display: block;
+}
+.nowrap{
+    white-space: nowrap;
+}
+.offscreen{
+    position: absolute;
+    left: -10000px;
+}
+body{
+    font-family: "Nunito" sans-serif;
     min-height: 100vh;
-    padding:20px;
 }
-.container {
-    max-width: 800px;
-    min-height: 400px;
-    margin-inline: auto;
-    border: 1px solid black;
+.container{
+    background-color: rgb(251, 210, 156);
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__340.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+.hero{
+    border-bottom: 2px solid #000;
+    padding: 20px;
     display: flex;
-    gap: 1rem;
-    justify-content: center ;
+    justify-content: flex-start;
     align-items: center;
-    flex-flow: row wrap; 
-    align-content: sapce-evenly;
+    gap: 30px;
+    background-color:hsla(0 ,0% , 0% ,0.40)
 }
-.box {
-    min-width: 100px;/*flex-basis:100px;*/
-    min-height: 100px;
-    background-color: #000;
-    color: white;
-    font-size: 2rem;
-    padding: 0.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
+h1{
+    font-size: 500%;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px red;
+    /*background-color:hsla(0 ,0% , 0% ,0.40)
+    padding:0.25rem;
+    border-radius:10px;*/   
 }
-/*.box:nth-child(2){
-    flex-grow: 2;
-    flex:2 2 150px;
-    order:4;
-}*/
+.profile-pic-figure{
+    width: 35%;
+}
+
+.profile-pic-figure img {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double gray;
+    border-radius: 50%;
+}
+.example{
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 1px solid red;
+}
+.example img{
+    width: 25%;
+    height: auto;
+}
