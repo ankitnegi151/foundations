@@ -6,9 +6,7 @@
 :root{
    /* color: ;*/
    --FF:"Nunito" , sans-serif;
-   --FS: clamp(1.75rem ,3vh , 2.25rem);
-   --FS-SM(1.25rem ,2vh , 1.25rem);
-
+   --FS:1.5rem;
    --FS-XL:3rem;
     --bgcolor:#475569;
     --alt-bgcolor:#1E293B;
@@ -20,16 +18,16 @@
     --square-size:max(150px, 20vw);
 
     
-    --padding:0.5em;
+    --padding:0.5rem;
     --shadow:0 6px 5px  -5px var(--dark-color);
     --border:2px solid var(--dark-color) ;
 
 }
-@media  (prefers-color-scheme:dark){
+@media  (prefers-color-scheme:light/*dark*/){
     :root{
         --bgcolor:#000;
         --alt-bgcolor:#333;
-        --radial-color:rgb(217, 217, 217);
+        --radial-color:rgb(217,217,217);
         --square-bgcolor:rgb(202, 174, 202);
     }
 }
@@ -58,58 +56,21 @@ header{
 nav{
     background-color:var(--light-color);
     color:var(--dark-color);
+    padding: var(--padding);
     border-bottom: var(--border);
     box-shadow: 0 6px 5px  -5px var(--dark-color);
 }
 main{
     flex-grow: 1;
 
-   /* padding: 1;
+    padding: 1;
     display: flex;
     justify-content: space-evenly;
     flex-flow: row wrap;
-    gap:min(4vw), 15px;*/
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-start;
-}
-main section{
-    flex-grow: 1;
-    padding:var(--padding);
-}
-main aside{
-    background-color: hsla(0 , 0% , 20% , 0.8 );
-    color: var(--light-color);
-    font-size: var(--FS-SM);
-    font-style: italic;
-    padding:var(--padding);
-}
-.content{
-    margin-top: 20px;
-}
-.tooltip{
-    border-bottom: 1px dashed orange;
-    position: relative;
-}
-.tooltip:hover::before{
-    content: attr(data-tooltip);
-    position: absolute;
-    top: 20px;
-    white-space:nowrap;
-    background-color: var(--dark-color);
-    padding: var(--padding);
-    border-radius:15px;
-
+    gap:min(4vw), 15px
 }
 footer{
     bottom:0;
-}
-a:any-link{
-    color: firebrick;
-}
-a:hover,
-a:focus{
-    filter: brightness(150%);
 }
 .square--highlight{
     --square-bgcolor:cornflowerblue:
@@ -124,16 +85,4 @@ a:focus{
     place-content: center;
     font-size: var(--FS-XL);
     box-shadow: var(--shadow);
-}
-@media  and (min-width:576px) {
-    main{
-        flex-flow:row nowrap;
-        justify-content:space-between;
-    }
-    main section{
-        width:calc(70%-5px);
-    }
-    main aside{
-        width:calc(30% - 5px);
-    }
 }
