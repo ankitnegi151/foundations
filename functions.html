@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Function</h1>
+        <script>
+            /*function functionName(){
+                //function body
+            }*/
+
+
+
+            function greet(){
+                console.log("hello there" );
+
+            }
+            greet();
+            console.log("After funtion call");
+            greet();
+            greet();
+            greet();
+
+
+            function greet(name){
+                console.log("hello" + name );
+
+            }
+            greet("Jute");
+            greet("John")
+
+
+
+
+
+            function addNumber(n1 , n2){
+                let result = n1 + n2;
+                return result;
+                //console.log("The sun is " +  result);//
+            }
+
+            let number1 = 6.6;
+            let number2 = 2.5;
+
+            //addNumber(number1, number2);//
+            let output = addNumber(number1 , number2);
+            let output1 = addNumber(43,45);
+            console.log("The sum is " + output);
+            console.log("The second sum is " + output1);
+
+
+            let num =9;
+            let squareRoot =Math.sqrt(num);
+            console.log(`The square root of ${num} is ${squareRoot}`);
+
+
+            /*//Arrow function
+
+            const greet =() =>{
+                console.log("Hello there.");
+            }
+            greet();*/
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+        </script>
+    </body>
+</html>
