@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2>For loop </h2>
+        <script>
+            /*
+            for(Element of iterable){
+                //body of for...of
+            }
+            */
+           
+           1
+            const number =[1, 3, 5, 7];
+            for(const Element of number){
+                console.log(Element);
+            }
+
+
+
+            2
+            const member =["John", "Sara" ,"Jack"];
+
+            for(const name of member){
+                let fullname = name + " " + "Smith";
+                console.log(fullname);
+            }
+
+
+
+            3
+            const name ="Programiz";
+            for(let i of name){
+                console.log(i);
+            }
+
+
+            4
+            const student ={
+                name: "Monica",
+                grade:7,
+                age:12
+            };
+            console.log(student);
+
+
+
+            /*
+            for (key in Object){
+                // body of for...in
+            }*/
+
+
+            5
+            const student1 ={
+                name: "Monica",
+                grade:7,
+                age:12
+            };
+            console.log(student1);
+
+            for (const key in student1){
+                //console.log(key);//
+                const value = student1[key];
+                console.log(`${key} =>${value}`);
+            }
+
+
+            6
+            const employee ={
+                Jack: 24000,
+                Paul:34000,
+                Monica:55000
+
+            }
+            for (const i in employee){
+                let salary = employee[i] + 5000;
+                console.log(`${i}: ${salary}`);
+            }
+
+
+
+
+
+
+
+
+
+        </script>
+    </body>
+</html>
