@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>
+            Number JavaScript
+        </h1>
+        <script>
+            1
+            const a=3;
+            const b=3.13;
+
+            console.log(typeof(a));
+            console.log(typeof(b));
+
+            2
+            const str ="23";
+            console.log(typeof(str));
+
+            const num = Number(str);
+
+            console.log(num);
+            console.log(typeof(num));
+            
+            
+            3
+            const bool =true;//false//
+
+            const result= Number(bool);
+            console.log(result);
+
+
+            4
+            const str1 ="hello";
+            const result1 =Number(str1);
+            console.log(result);
+
+            5
+            const result2 = 4 - "hello";
+            console.log(result2);
+
+            6
+            const result4 =isNaN(9);//hello//
+            console.log(result4);
+
+            7
+            //isInteger//
+
+            const num1 = 32; //32.56//
+            const result5 =Number.isInteger(num1);
+            console.log(result5);
+
+
+            8
+            //parselnt() and parseFloot() Mathod//
+
+            const num3 ="5";//5.8744787//
+            const result6 =Number.parseInt(num3);
+            console.log(result6);
+            //console.log(Number.isInteger(result6));//
+            console.log(typeof(result6));
+
+
+            9
+            //toFixed() Method
+            const num4 =5.45446;
+            const result7= num4.toFixed(2)
+            console.log(result7);
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </script>
+    </body>
+</html>
