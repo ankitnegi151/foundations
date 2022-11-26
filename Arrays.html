@@ -7,45 +7,56 @@
     </head>
     <body>
         <h1>
-            Arrays
+            Access Elements of an Array,
+            Change the Elements of an Array,
+            Remove an Element from an Array,
+            Working of JavaScript Arrays,
+
         </h1>
         <script>
-            const routine =[ 'eat' , 'sleep' ];
-            console.log(routine);
+            /*
+            1
+            const myArray = ['h', 'e', 'l', 'l', 'o'];
+            
+            // first element
+            console.log(myArray[0]);  // "h"
+            
+            // second element
+            console.log(myArray[1]); // "e"
 
+            2
+            
+            let dailyActivities = ['eat', 'sleep'];
+            
+            //add an element at the start
+            dailyActivities.unshift('work'); 
+            
+            console.log(dailyActivities); // ['work', 'eat', 'sleep']
+            */
 
-            const number = [2,3,5,7];
-            console.log(number);
+            3
+            let dailyActivities = ['work', 'eat', 'sleep', 'exercise'];
+            
+            // remove the last element
+            dailyActivities.pop();
+            console.log(dailyActivities); // ['work', 'eat', 'sleep']
+            
+            // remove the last element from ['work', 'eat', 'sleep']
+            const removedElement = dailyActivities.pop();
+            
+            //get removed element
+            console.log(removedElement); // 'sleep'
+            console.log(dailyActivities);  // ['work', 'eat']
 
+            let arr = ['h', 'e'];
+            let arr1 = arr;
+            arr1.push('l');
+            
+            console.log(arr); // ["h", "e", "l"]
+            console.log(arr1); // ["h", "e", "l"]
 
-            const arr=['eat','sleep' , 3 , 5 ,'run'];
-            console.log(arr);
-
-
-            const myArray = ['h','e','l','l','o'];
-            console.log(myArray[0]);
-            console.log(myArray.length);
-
-
-            let routine1 =[ 'eat' ,'sleep'];
-            routine1.push('exercise');
-            console.log(routine1);
-
-
-
-            let routine2 =['eat', 'sleep'];
-            routine2[1] ='exercise';
-            console.log(routine2);
-
-
-            let routine3 =['work','eat', 'sleep' , 'exercise'];
-            routine3.pop();
-            console.log(routine3);
-
-
-            const routine4 =new Array("eat", "sleep");
-            console.log(routine4);
 
         </script>
+
     </body>
 </html>

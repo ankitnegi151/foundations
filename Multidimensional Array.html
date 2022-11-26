@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>
+            Multidimensional Array,
+            Add an Element to a Multidimensional Array,
+            Adding Element to the Inner Array;
+            Remove an Element from a Multidimensional Array;
+            Iterating over Multidimensional Array
+        </h1>
+        <script>
+            /*
+            1
+            let x = [
+                ['Jack', 24],
+                ['Sara', 23], 
+                ['Peter', 24]
+            ];
+            
+            // access the first item 
+            console.log(x[0]); // ["Jack", 24]
+            
+            // access the first item of the first inner array
+            console.log(x[0][0]); // Jack
+            
+            // access the second item of the third inner array
+            console.log(x[2][1]); // 24
+            
+           2
+           let studentsData = [['Jack', 24], ['Sara', 23],];
+           studentsData.push(['Peter', 24]);
+            console.log(studentsData); //[["Jack", 24], ["Sara", 23], ["Peter", 24]
+            
+
+
+            3
+            // using index notation
+            let studentsData = [['Jack', 24], ['Sara', 23],];
+            studentsData[1][2] = 'hello';
+            console.log(studentsData); // [["Jack", 24], ["Sara", 23, "hello"]]
+            
+
+            4
+            let studentsData = [['Jack', 24], ['Sara', 23],];
+            
+            // adding element at 1 index
+            studentsData.splice(1, 0, ['Peter', 24]);
+            
+            console.log(studentsData); // [["Jack", 24], ["Peter", 24], ["Sara", 23]]
+
+            */
+
+            5
+            let studentsData = [['Jack', 24], ['Sara', 23],];
+            
+            // iterating over the studentsData
+            studentsData.forEach((student) => {
+                student.forEach((data) => {
+                    console.log(data);
+                });
+            });
+
+        </script>
+    </body>
+</html>
